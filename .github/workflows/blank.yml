@@ -13,7 +13,7 @@ jobs:
     - name: Multiplicar números
       run: |
         # Definir números a sumar
-        num1=8
+        num1=10
         num2=5
 
         # Realizar la suma
