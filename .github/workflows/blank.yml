@@ -10,14 +10,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Sumar números
+    - name: Multiplicar números
       run: |
         # Definir números a sumar
-        num1=5
-        num2=7
+        num1=8
+        num2=5
 
         # Realizar la suma
-        suma=$((num1 + num2))
+        multi=$((num1 * num2))
 
         # Imprimir el resultado
-        echo "La suma de $num1 y $num2 es $suma"
+        echo "La multi de $num1 y $num2 es $multi"
